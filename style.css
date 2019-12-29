@@ -1,0 +1,107 @@
+.container {
+  height: 600px;
+  width: 1440px;
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  grid-template-rows: 250px 250px;
+  justify-content: center;
+  align-content: center;
+  grid-gap: 20px;
+
+
+}
+
+.text {
+  width: 1440px;
+  position: relative;
+  top: 30px
+}
+
+.supervisor {
+  font-size: 15px;
+  font-family: 'poppins', sans-serif;
+  grid-area: 1 / 1 / span 1 / span 1;
+  border-top: 5px solid Cyan;
+  background-color: white;
+  box-shadow: 5px 5px 20px hsl(229, 6%, 66%);
+  position: relative;
+  top: 150px;
+  border-radius: 10px;
+  text-align: left;
+
+}
+
+.TeamBuilder {
+  font-size: 15px;
+  font-family: 'poppins', sans-serif;
+  grid-area: 1 / 2 / span 1 / span 1;
+  border-top: 5px solid red;
+  background-color: white;
+  box-shadow: 5px 5px 20px hsl(229, 6%, 66%);
+  border-radius: 10px;
+  text-align: left;
+}
+
+.Karma {
+  font-size: 15px;
+  font-family: 'poppins', sans-serif;
+  grid-area: 2 / 2 / span 1 / span 1;
+  border-top: 5px solid orange;
+  background-color: white;
+  box-shadow: 5px 5px 20px hsl(229, 6%, 66%);
+  border-radius: 10px;
+  text-align: left;
+}
+
+.Calculator {
+  font-size: 15px;
+  font-family: 'poppins', sans-serif;
+  grid-area: 1 / 3 / span 1 / span 1;
+  border-top: 5px solid blue;
+  background-color: white;
+  box-shadow: 5px 5px 20px hsl(229, 6%, 66%);
+  position: relative;
+  top: 150px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 5px;
+  text-align: center;
+  justify-content: center;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-top: 5px;
+  text-align: center;
+  justify-content: center;
+}
+
+h5 {
+  font-family: 'poppins', sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  margin-top: 5px;
+  text-align: center;
+  justify-content: center;
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+}
+
+#text {
+  padding-left: 30px;
+}
+
+#img {
+  position: relative;
+  left: 250px;
+  top: 50px;
+}
